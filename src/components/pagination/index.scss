@@ -1,0 +1,41 @@
+.pagination {
+  display: flex;
+  align-items: center;
+}
+
+.pagination-item {
+  border: 1px solid gray;
+  padding: 4px 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 12px;
+  background-color: #fff;
+  user-select: none;
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    background-color: cornflowerblue;
+    color: #fff;
+  }
+}
+
+.pagination-active-item {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+.pagination-arrow {
+  cursor: pointer;
+}
+
+.pagination-dots {
+  margin-right: 10px;
+  user-select: none;
+}
+
+@media (max-width: 1200px) {
+  .pagination {
+    margin-bottom: 30px;
+  }
+}

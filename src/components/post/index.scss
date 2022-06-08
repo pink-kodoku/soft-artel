@@ -1,0 +1,25 @@
+.post {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.post-title {
+  margin-bottom: 30px;
+}
+
+.post-body {
+  max-width: 800px;
+  margin-bottom: 10px;
+}
+
+.post-tags {
+  display: flex;
+}
+
+.post-tag {
+  background-color: cornflowerblue;
+  color: #fff;
+  margin-right: 10px;
+  padding: 3px 10px;
+  border-radius: 5px;
+}

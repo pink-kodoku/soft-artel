@@ -1,0 +1,71 @@
+.card {
+  border: 1px solid cornflowerblue;
+  width: 24%;
+  border-radius: 30px;
+  padding: 30px;
+  transition: all 0.3s ease-out;
+  background-color: #fff;
+  margin: 0px 5px 20px 5px;
+
+  &:hover {
+    box-shadow: 6px 4px 6px 0 rgba(34, 60, 80, 0.2);
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-bottom: 1px solid dodgerblue;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    color: dodgerblue;
+  }
+}
+
+.card-body {
+  margin-bottom: 10px;
+}
+
+.card-tag {
+  background-color: cornflowerblue;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 3px;
+  font-size: 14px;
+  padding: 2px 5px;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: 31%;
+    margin: 0px 5px 20px 5px;
+  }
+}
+
+@media (max-width: 960px) {
+  .card {
+    padding: 25px
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 460px) {
+  .card {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
